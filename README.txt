@@ -1,6 +1,10 @@
 Getting Started:
 
-1). Install required packages (via conda using req.txt)
+0). Install required packages (via conda using req.txt)
+1). Install Weights files:
+      wget -c https://pjreddie.com/media/files/yolov3-tiny.weights
+      wget -c https://pjreddie.com/media/files/yolov3-spp.weights
+
 
 2). Run detect.py to perform detection on images (default yolov3, input: /imgs, output: /det)
 3). Run video.py to perform detection on video feed (default yolov3-tiny, input: webcam)
